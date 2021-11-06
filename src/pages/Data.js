@@ -36,7 +36,7 @@ const Tables = () => {
     };
     agriData();
     // console.log(data);
-  }, []);
+  }, [macAddress]);
 
   // const mappedData = data.map((d) => {
   //   return d.Environment[0];
